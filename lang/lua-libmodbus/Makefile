@@ -1,14 +1,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=lua-libmodbus
-PKG_VERSION:=0.7
+PKG_VERSION:=v0.7
 PKG_RELEASE:=1
 
-PKG_SOURCE:=lua-libmodbus-$(PKG_VERSION).tar.gz
-PKG_SOURCE_SUBDIR:=lua-libmodbus-$(PKG_VERSION)
-PKG_SOURCE_URL:=https://codeload.github.com/etactica/lua-libmodbus/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=70369f4c4e36421095bf00dcee36c633b4284eaa79bcfdfd230bfefb27acefda
-PKG_SOURCE_VERSION:=v$(PKG_VERSION)
+PKG_SOURCE:=$(PKG_NAME)/archive/refs/tags/$(PKG_VERSION)-$(PKG_RELEASE).tar.gz
+PKG_SOURCE_URL:=https://github.com/woodsnake
+PKG_HASH:=502e3b16e7ffec80247695c9a5f8d5ad12c287bf03f09dead47aa083b1d7ef26
 
 PKG_MAINTAINER:=Karl Palsson <karlp@etactica.com>
 PKG_LICENSE:=MIT
