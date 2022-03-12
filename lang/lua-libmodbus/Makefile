@@ -1,12 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=lua-libmodbus
-PKG_VERSION:=0.7.ws
+PKG_VERSION:=0.7.a
 PKG_RELEASE:=1
 
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_SOURCE:=v$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://github.com/woodsnake/$(PKG_NAME)/archive/refs/tags
-PKG_HASH:=faf026a191f234c18ee60b8b39d7dd74353a9f74b48917087f977c8d054d0c1f
+PKG_HASH:=b598b3551e3c47f4de7b98375787182167147ed104338e20e7d1a0c358f18298
+
 
 PKG_MAINTAINER:=Karl Palsson <karlp@etactica.com>
 PKG_LICENSE:=MIT
