@@ -13,7 +13,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://github.com/woodsnake/$(PKG_NAME)/archive/refs/tags
-PKG_HASH:=c9846fca822317fe8a743da389fb9e5e90e956233098e54baa285b3f6ebf3c88
+PKG_HASH:=4c2b06b557afb076d4100695e1fac62ab26f53670c1dcb731ada27ad2220992c
 
 
 PKG_MAINTAINER:=Michael Heimpold <mhei@heimpold.de>
