@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libmodbus
-PKG_VERSION:=3.1.7-1
+PKG_VERSION:=3.1.7.ws
 PKG_RELEASE:=1
 
-PKG_SOURCE:=v$(PKG_VERSION).tar.gz
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://github.com/woodsnake/$(PKG_NAME)/archive/refs/tags
-PKG_HASH:=dfe9369cc1091fc96cf14c2b5c282b377cf9672249b4b4b8dac00a27e8bba1c0
+PKG_HASH:=c9846fca822317fe8a743da389fb9e5e90e956233098e54baa285b3f6ebf3c88
 
 
 PKG_MAINTAINER:=Michael Heimpold <mhei@heimpold.de>
